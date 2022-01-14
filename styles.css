@@ -1,0 +1,57 @@
+.on {
+  background: lightpink;
+  color: darkslateblue;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 5px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  font-size: 1em;
+}
+
+#btn_createGrid {
+  border: solid 2px black;
+  border-radius: 30px;
+  margin-right: 50px;
+  margin-top: 5px;
+  height: 50px;
+  width: 150px;
+}
+
+#btn_createGrid:hover {
+  background-color: steelblue;
+  border-color: white;
+  font-style: italic;
+  font-family: cursive;
+  color: white;
+  transition: all 0.6s ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+#btn_move {
+  border: solid 2px black;
+  border-radius: 30px;
+  margin-right: 50px;
+  margin-top: 5px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+#btn_move:hover {
+  background-color: teal;
+  border-color: white;
+  font-style: italic;
+  font-family: cursive;
+  color: white;
+  transition: all 1s ease-in-out 0.1s;
+  cursor: pointer;
+}
